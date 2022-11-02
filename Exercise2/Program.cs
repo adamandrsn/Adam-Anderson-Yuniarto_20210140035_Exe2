@@ -10,6 +10,11 @@ namespace Exercise2
     {
         static public void MainMerge(int[] numbers, int low, int mid, int high) 
         {
+            int[] Adam = new int[25];
+            int n, AY, k, i;
+            AY = (mid + 1);
+            i = low;
+            k = low;
         }
     }
 }
