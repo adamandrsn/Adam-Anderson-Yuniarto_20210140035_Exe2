@@ -8,6 +8,8 @@ namespace Exercise2
 {
     class MergeSort
     {
-
+        static public void MainMerge(int[] numbers, int low, int mid, int high) 
+        {
+        }
     }
 }
