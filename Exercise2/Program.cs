@@ -15,6 +15,23 @@ namespace Exercise2
             AY = (mid + 1);
             i = low;
             k = low;
+
+            while ((low <= AY) && (mid <= high))
+            {
+                if (numbers[low] <= numbers[mid])
+                    Adam[i++] = numbers[low++];
+                else
+                    Adam[i++] = numbers[mid++];
+            }
+            while (low <= AY)
+                Adam[i++] = numbers[low++];
+            while (mid <= high)
+                Adam[i++] = numbers[mid++];
+            for (n = 0; n < k; n++)
+            {
+                numbers[high] = Adam[high];
+                high--;
+            }
         }
     }
 }
