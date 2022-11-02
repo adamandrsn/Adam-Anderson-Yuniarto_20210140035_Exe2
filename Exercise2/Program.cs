@@ -44,5 +44,8 @@ namespace Exercise2
                 MainMerge(numbers, low, (mid + 1), high);
             }
         }
+        static void Main(string[] args) 
+        {
+        }
     }
 }
