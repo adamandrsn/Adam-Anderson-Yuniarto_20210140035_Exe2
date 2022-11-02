@@ -35,7 +35,14 @@ namespace Exercise2
         }
         static public void SortMerge(int[] numbers, int low, int high)
         {
-
+            int mid;
+            if (high > low)
+            {
+                mid = (high + low) / 2;
+                SortMerge(numbers, low, mid);
+                SortMerge(numbers, (mid + 1), high);
+                MainMerge(numbers, low, (mid + 1), high);
+            }
         }
     }
 }
