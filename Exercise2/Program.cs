@@ -62,6 +62,11 @@ namespace Exercise2
                 Console.Write(numbers[k] + " ");
                 Console.Write("\n");
             }
+            Console.WriteLine("MergeSort By Adam Anderson Yuniarto");
+            SortMerge(numbers, 0, max - 1);
+            for (int n = 0; n < max; n++)
+                Console.WriteLine(numbers[n]);
+            Console.ReadLine();
         }
     }
 }
