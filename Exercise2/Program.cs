@@ -58,7 +58,10 @@ namespace Exercise2
             Console.Write("Input int array : ");
             Console.Write("\n");
             for (int k = 0; k < max; k++)
-            { }
+            {
+                Console.Write(numbers[k] + " ");
+                Console.Write("\n");
+            }
         }
     }
 }
