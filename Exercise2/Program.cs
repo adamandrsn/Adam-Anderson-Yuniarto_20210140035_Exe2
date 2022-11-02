@@ -33,5 +33,9 @@ namespace Exercise2
                 high--;
             }
         }
+        static public void SortMerge(int[] numbers, int low, int high)
+        {
+
+        }
     }
 }
