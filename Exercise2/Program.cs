@@ -47,6 +47,7 @@ namespace Exercise2
         static void Main(string[] args) 
         {
             Console.Write("\nExercise 2");
+            Console.Write("\nMerge Sort");
             Console.Write("\n\nEnter number of elements: ");
             int max = Convert.ToInt32(Console.ReadLine());
             int[] numbers = new int[max];
