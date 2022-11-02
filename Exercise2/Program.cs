@@ -12,9 +12,9 @@ namespace Exercise2
         {
             int[] Adam = new int[25];
             int n, AY, k, i;
-            AY = (mid + 1);
+            AY = (mid - 1);
             i = low;
-            k = low;
+            k = (high - low + 1);
 
             while ((low <= AY) && (mid <= high))
             {
