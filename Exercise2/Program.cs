@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Exercise2
 {
-    internal class Program
+    class MergeSort
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
 }
