@@ -46,6 +46,15 @@ namespace Exercise2
         }
         static void Main(string[] args) 
         {
+            Console.Write("\nExercise 2");
+            Console.Write("\n\nEnter number of elements: ");
+            int max = Convert.ToInt32(Console.ReadLine());
+            int[] numbers = new int[max];
+            for (int n = 0; n < max; n++)
+            {
+                Console.Write("\nEnter [" + (n + 1).ToString() + "] element: ");
+                numbers[n] = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
